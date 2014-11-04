@@ -1,0 +1,24 @@
+{
+  "name": "comic_viewer_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.coffee",
+  "dependencies": {
+    "adm-zip": "^0.4.4",
+    "coffee": "^0.0.1",
+    "express": "^4.10.0",
+    "flatten": "^0.0.1",
+    "rarfile": "^0.2.3-1",
+    "unzip": "^0.1.11",
+    "zip": "^1.2.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0"
+  },
+  "scripts": {
+    "start": "coffee index.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aileron.cc",
+  "license": "ISC"
+}
